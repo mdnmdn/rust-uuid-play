@@ -10,3 +10,6 @@ edition = "2018"
 uuid= { version = "0.8.2", features=["v4"]}
 base64= { version = "0.13.0" }
 nanoid="0.4.0"
+
+[profile.release]
+opt-level = 3
